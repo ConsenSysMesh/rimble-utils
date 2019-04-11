@@ -1,0 +1,24 @@
+{
+  "name": "rimble-utils",
+  "version": "0.0.2",
+  "main": "dist/rimble-utils.cjs.js",
+  "module": "dist/rimble-utils.esm.js",
+  "browser": "dist/rimble-utils.umd.js",
+  "devDependencies": {
+    "rollup": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "bowser": "^2.2.0"
+  }
+}
