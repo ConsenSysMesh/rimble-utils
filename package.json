@@ -1,6 +1,6 @@
 {
   "name": "rimble-utils",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "dist/rimble-utils.cjs.js",
   "module": "dist/rimble-utils.esm.js",
   "browser": "dist/rimble-utils.umd.js",

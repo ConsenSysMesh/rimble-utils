@@ -7,7 +7,7 @@ export default [
   {
     input: "src/main.js",
     output: {
-      name: "rimbleUtils",
+      name: "rimble-utils",
       file: pkg.browser,
       format: "umd",
       external: ["bowser"]
