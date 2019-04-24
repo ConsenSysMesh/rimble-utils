@@ -2,6 +2,7 @@
 
 This repository has been integrated into the [rimble-web3-components repository](https://github.com/ConsenSys/rimble-web3-components/) and is no longer maintained.
 
+## About rimble-utils
 Rimble Utils is part of an array of tools to help web3 dApp developers launch products faster and with better UX.
 
 ## Getting started
